@@ -119,6 +119,20 @@ export default function App() {
           </li>
         ))}
       </ul>
+      <footer class="footer-container">
+        <h2>Connect with me</h2>
+        <div class="social-container">
+          <a href="https://twitter.com/mohitdhatrak">
+            <img src="/twitter.svg" alt="" class="small-image-size" />
+          </a>
+          <a href="https://www.linkedin.com/in/mohitdhatrak/">
+            <img src="/linkedin.svg" alt="" class="small-image-size" />
+          </a>
+          <a href="https://github.com/mohitdhatrak">
+            <img src="/github.svg" alt="" class="small-image-size" />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
