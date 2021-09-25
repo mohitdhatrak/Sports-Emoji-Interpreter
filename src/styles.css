@@ -1,4 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+.App h3 {
+  max-width: 80%;
+  margin: auto;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  margin: 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.input-text {
+  width: 25rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  max-width: 80%;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.output-text {
+  display: block;
+  width: 25rem;
+  min-height: 2rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  border: 1px solid black;
+  padding: 0.5rem;
+  resize: none;
+  overflow: hidden;
+}
+
+.emoji-container {
+  width: 40rem;
+  margin: 0 auto;
+  padding-left: 0;
+  max-width: 80%;
+}
+
+.emoji-style {
+  display: inline-block;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
