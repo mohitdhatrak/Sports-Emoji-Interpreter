@@ -25,7 +25,6 @@ export default function App() {
     "🤹": "Person Juggling",
     "🧘": "Person in Lotus Position",
     "🛹": "Skateboard",
-    "🛼": "Roller Skate",
     "🛶": "Canoe",
     "🎗️": "Reminder Ribbon",
     "🎟️": "Admission Tickets",
