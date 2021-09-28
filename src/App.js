@@ -72,7 +72,7 @@ export default function App() {
   };
 
   function inputText(event) {
-    var userInput = event.target.value;
+    var userInput = event.target.value.trim();
     if (userInput === "") {
       setUserInput("");
     } else {
